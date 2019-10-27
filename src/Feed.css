@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+  
+  @media screen and (min-width: 769px) {
+    #root {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #root {
+      width: 95%;
+    }
+  }
+  
+  
+  
+  body {
+    background: #EFEBE9;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M1 3h1v1H1V3zm2-2h1v1H3V1z"%3E%3C/path%3E%3C/svg%3E');
+  }
+  
+  #root {
+    margin: 5% auto;
+  }
+  
+  
+  .blurb {
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 0px; 
+    background: #ffffff;
+    box-shadow: 0px 2px 1px #ddd;
+    border: 1px #D7CCC8 solid;
+    border-radius: 3px;
+  }
+  
+  .blurb p {
+    font-size: 80%;
+    line-height: 180%; 
+    font-family: 'Roboto', arial, sans-serif;
+    padding: 10px;
+    color: #A1887F;
+  }
+  
+  .blurb h2 {
+    background: #BCAAA4;
+    margin-top: 0px;
+    color: #ffffff;
+    display: block;
+    font-size: 100%;
+    line-height: 140%;
+    text-align: center;
+    text-shadow: 1px 1px 0px #A1887F;
+    font-family: 'Roboto', arial, sans-serif;
+    border-bottom: 1px solid #A1887F;
+  }
